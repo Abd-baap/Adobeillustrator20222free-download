@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Adobe Illustrator 2022 &#x2736; Free via GetIntoPC | Wordora</title>
+    <title>Download Adobe Illustrator 2022 For Free&#x2736;Wordora</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -106,26 +106,28 @@
         }
 
         /* Animations for sections as they come into view */
+        /* IMPORTANT FIX: Removed opacity: 0 from initial state to ensure visibility */
         .animate-on-scroll {
-            opacity: 0;
+            /* opacity: 0; <-- REMOVED THIS LINE */
             transform: translateY(50px);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
 
         .animate-on-scroll.is-visible {
-            opacity: 1;
+            opacity: 1; /* Retain for smooth fade-in if we decide to re-add initial opacity via JS */
             transform: translateY(0);
         }
 
         /* Specific animation for image within a section */
+        /* IMPORTANT FIX: Removed opacity: 0 from initial state to ensure visibility */
         .animate-image-on-scroll {
-            opacity: 0;
+            /* opacity: 0; <-- REMOVED THIS LINE */
             transform: scale(0.95);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
 
         .animate-image-on-scroll.is-visible {
-            opacity: 1;
+            opacity: 1; /* Retain for smooth fade-in if we decide to re-add initial opacity via JS */
             transform: scale(1);
         }
     </style>
@@ -254,7 +256,4 @@
                         <li><strong>Graphics Card:</strong> A GPU with DirectX 12 support (for Windows) or Metal support (for macOS) is needed, ideally with 2 GB of VRAM. For demanding tasks, 4 GB or more VRAM is recommended.</li>
                         <li><strong>Hard Disk Space:</strong> You will need at least 2 GB of available hard-disk space for the initial installation. Additional free space will be required during the installation process and for storing content files. An SSD (Solid State Drive) is strongly recommended for significantly faster loading times and overall responsiveness.</li>
                         <li><strong>Display:</strong> A display with a resolution of 1280 x 800 pixels is the minimum, but a resolution of 1920 x 1080 or higher is recommended for a more comfortable and detailed workspace.</li>
-                        <li><strong>Internet Connection:</strong> An active internet connection is mandatory for software activation, ongoing validation of your subscription, and accessing various online services and libraries provided by Adobe.</li>
-                    </ul>
-                    <p class="text-lg text-gray-300 mt-4 leading-relaxed">
-                        Regularly updating your operating system and graphics drivers is also critically importa
+                        <li><strong>Internet Connection:</strong> An active 
